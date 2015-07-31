@@ -1,14 +1,12 @@
-﻿using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace Stormpath
 {
     /// <summary>
-    /// Class used to store the ApiKey decoreate requests with the corresponding authorization headers.
+    /// Class used to store the ApiKey for use in the authorization header.
     /// </summary>
     public class Client
     {
